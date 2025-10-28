@@ -1,0 +1,322 @@
+           html,body{
+                margin-top: 0Px;
+                padding: 5px;
+                font-family: Arial, sans-serif;
+                align-items: center;
+                background-color:aliceblue
+            }
+            .flex{
+                display: flex;
+                padding: 20px;
+                align-items: center;
+                justify-content: center;
+            }
+            .logo{
+                margin-right:100px;
+                padding:0px;   
+            }
+            .loginmargin{
+                padding-left: 40px;;
+                margin-right: 30px;
+                font-size: 18px;
+
+            }
+            .marginf{
+                margin-right: 20px;
+                font-size: 18px;
+                align-items: center;
+            }
+            .font-colors{
+                color: rgb(104, 101, 101);
+            }
+            .button-style{
+                padding: 10px 20px;
+                background-color: orange;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            .color{
+                color: orange;
+                 cursor: pointer;
+            }
+            .highlight{
+                color:orangered;
+            }  
+            .size{
+                width:20%;
+                height:auto;
+                margin: 0;
+                padding: 0;
+               
+            }
+            .font-style{
+                font-family:'Times New Roman', Times, serif; 
+                font-size: 35px; 
+                font-weight: bold;
+                line-height: 30px;
+                letter-spacing:-1px;
+            }      
+            .text-wrap{ 
+                text-align: justify;
+                padding-left: 250px;
+                margin-top:0px;
+                
+            }
+            .discoverbutton{
+                color:orangered;
+                border-color: orange;
+                font-size: 17px;
+                padding: 5px 5px;
+                display: inline-block;
+                margin-top: 20px;
+                border: 2px solid orange;
+            }
+            .img-details{
+                width:80%;
+                height:auto;
+            }
+            .removespace{
+                margin: 0;
+                padding: 0;
+            }
+            .footer-style{
+                margin-right: 50px;
+                font-size: 15px;
+                align-items: center;
+
+            }
+            .footer-background{
+                width: 600px; 
+                text-align: center;
+                background-color:white;
+                padding: 20px;
+                border-radius: 2px;
+                margin-top: 20px;
+                margin:auto;
+                justify-content: center;
+                margin-bottom: 30px;
+            } 
+            .subfooter-style{
+                margin-right: 50px;
+                font-size: 10px;
+                align-items: center;
+                color:grey;
+            }
+            /* page2 */
+            .page2color{
+                background-color: ghostwhite;
+            }
+            .text-align{
+                text-align: center;
+            }
+            .text-wrap2{
+                text-align: center;
+                flex-wrap: wrap;
+   
+            }
+            .flight-imgpro{
+                width: 50%;
+                height: auto;
+            }
+            .bold-text{
+                font-weight: bold;
+            }
+            .signup-pro{
+                padding-top: 20px;
+                padding-bottom: 10px;
+            }
+            .rectpro{
+                width: 250px;
+                text-align: center;
+                background-color: white;
+                padding: 10px;
+                border-radius: 7px;
+                margin-top: 15px;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+            .rectgap{
+                gap:10px;
+            }
+            .eddrectpro{
+                width: 20%;
+                height: 20%;
+                flex-shrink: 0;
+                object-fit: cover;
+                flex-wrap: nowrap;
+                text-align: center;
+                padding: 2px;
+                margin-top: -10px;
+                justify-content: space-between;
+                margin-bottom: -10px;
+                align-items: center;
+            } 
+            .eddrectgap{
+                gap:0px;
+            }
+            .eddsliderbutton{
+                margin: 0px;
+                padding: 0px;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-bottom: 10px;
+            }
+            .bvsliderbutton{
+                justify-content: flex-end;
+                align-items: center;
+                margin-bottom: -5px;
+                position: relative;
+                left: 400px;
+            }
+            .coconut-imgpro{
+                width: 80%;
+                height: auto;
+            }
+            .bvprectpro{
+                text-align: center;
+                width: 25%;
+                margin-top: -5px;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                flex-shrink: 0;
+                object-fit: cover;
+                flex-wrap: nowrap;
+            }
+            .bvprectgap{
+                gap:-4px;
+            }
+            .aboutsliderbutton{
+                justify-content: flex-start;
+                align-items: center;
+                margin-top: 20px;
+                position: relative;
+                left: 0px;
+                margin-bottom: 60px;
+            }
+            .abouttext-wrap2{
+                text-align: start;
+                flex-wrap: wrap;
+   
+            }
+            .aboutfont-style{
+                font-family:'Times New Roman', Times, serif; 
+                font-size: 35px; 
+                font-weight: bold;
+                line-height: 30px;
+                letter-spacing:-1px;
+                text-align: start;
+                align-items: center;            
+            } 
+            .flight3-imgpro{
+                width: 20%;
+                height: auto;
+                position: absolute;
+                top: 40px;           
+                right: 0px;                
+                height: auto;
+                z-index: 2px;
+            }
+            .right-section {
+            position: relative;
+            width: 43%;
+            }
+            .mike-img {
+                margin-top: 80px;
+                width: 500px;
+                margin-bottom: 0;
+                position: relative;
+                z-index: 3;
+        
+            }
+            .aboutgap{
+                margin-bottom: 0px;
+            }
+            .ceoredpara-pro{
+                justify-content: flex-start;
+            }
+            .chrisfont-style {
+                font-size: 15px;
+                color: grey;
+            }
+            .chrisborder {
+                position: absolute;
+                top: 290px;
+                left: 100px;
+                z-index: 1;
+                width: 370px;
+                padding: 15px;
+                background:rgb(237, 237, 250);
+                border-left: 2px solid gainsboro;
+                border-bottom: 2px solid gainsboro;
+                border-right: 2px solid gainsboro;
+                border-top: 2px solid gainsboro;
+                border-radius: 8px;
+                text-align: center;
+                opacity: 0.8; 
+                /* box-shadow: 0 4px 10px rgba(0,0,0,0.05); */
+            }
+            .mikeChris-pro {
+            position: relative;
+            display: inline-block;
+            margin-top:0px;
+            }
+            .latestbloggap{
+                gap:-10px;
+            }
+             .latestblogpro{
+                text-align: center;
+                width: 20%;
+                margin-top: -5px;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                flex-shrink: 0;
+                object-fit: cover;
+                flex-wrap: nowrap;
+            }
+            .subscribefooter{
+                width:65%;
+                height:auto;
+            }
+            .trabookcontent{
+                margin: 0px;
+                padding: 0px;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            .line{
+                width: 70%;
+                height: 2px;
+                background-color: rgb(216, 214, 214);
+                margin: 20px auto;
+            }
+            .linestyle{
+                align-items: center;
+            }
+            .footer-style{
+                justify-content: space-between;
+                width: 80%;
+                padding: 10px 40px;
+                margin: 0px;
+                padding: 0px;
+            }
+            .copyright-style{
+                color: grey;
+                font-size: 12px;
+                text-align: start;
+                justify-content: space-between;
+                padding-left: 200px;
+                width: 50%;
+            
+            }
+            .termscondition-style{
+                color: grey;
+                font-size: 12px;
+                justify-content: space-between;
+                text-align: left;
+
+            }
+
+   
