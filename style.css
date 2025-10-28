@@ -146,13 +146,15 @@
                 height: 20%;
                 flex-shrink: 0;
                 object-fit: cover;
-                flex-wrap: nowrap;
+                flex-wrap: wrap;
                 text-align: center;
                 padding: 2px;
                 margin-top: -10px;
-                justify-content: space-between;
+                justify-content: center;
                 margin-bottom: -10px;
-                align-items: center;
+                align-items: flex-start;
+                gap: 20px;
+                flex: 0 1 250px;
             } 
             .eddrectgap{
                 gap:0px;
@@ -176,17 +178,17 @@
                 height: auto;
             }
             .bvprectpro{
+                flex: 0 1 300px;
                 text-align: center;
-                width: 25%;
-                margin-top: -5px;
-                justify-content: space-between;
-                margin-bottom: 20px;
-                flex-shrink: 0;
-                object-fit: cover;
-                flex-wrap: nowrap;
             }
+
             .bvprectgap{
-                gap:-4px;
+                gap:20px;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-wrap: wrap;
+
             }
             .aboutsliderbutton{
                 justify-content: flex-start;
@@ -263,18 +265,19 @@
             display: inline-block;
             margin-top:0px;
             }
-            .latestbloggap{
-                gap:-10px;
-            }
+          
              .latestblogpro{
                 text-align: center;
                 width: 20%;
                 margin-top: -5px;
-                justify-content: space-between;
+                justify-content: center;
+                align-items: center;
                 margin-bottom: 20px;
                 flex-shrink: 0;
                 object-fit: cover;
-                flex-wrap: nowrap;
+                flex-wrap: wrap;
+                gap: 20px;
+                flex: 0 1 250px;
             }
             .subscribefooter{
                 width:65%;
